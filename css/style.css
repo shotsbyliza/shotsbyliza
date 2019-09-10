@@ -1,3 +1,7 @@
 body{
-  background-color: #eb8634
+  background-color: #eb8634;
+  text-align:center;
+}
+img {
+  max-width: 100%;
 }
