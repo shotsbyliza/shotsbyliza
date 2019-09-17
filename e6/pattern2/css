@@ -18,7 +18,7 @@ body{
   background-color: dodgerblue;
 }
 .tile2 {
-  background-color: purple;
+  background-color: black;
 }
 .tile3 {
   background-color: deeppink;
