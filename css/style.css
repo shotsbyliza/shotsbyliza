@@ -5,3 +5,18 @@ body{
 img {
   max-width: 100%;
 }
+body {
+  font-family: sans-serif;
+  font-style: italic;;
+  text-transform: all capitalize;;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+a,{
+  color: white;
+  text decoration: none;
+}
+a:hover{
+  color: black
+  border bottom: 10px solid black
+}
