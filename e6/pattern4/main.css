@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+#container {
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
+}
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6 {
+  float: left;
+  opacity: .8;
+}
+.tile1 {
+  width: 200px;
+      height: 150px;
+      background: red;
+      border-radius: 115px / 75px;
+  transform: rotateX(45);
+  background-color: #F0F8FF;
+}
+.tile2 {
+  width: 0;
+       height: 0;
+       border-left: 50px solid transparent;
+       border-right: 50px solid transparent;
+       border-bottom: 100px solid red;
+  transform: rotate(25deg);
+  background-color: #FAEBD7;
+}
+.tile3 {
+  border-style: solid;
+       border-color: transparent transparent red transparent;
+       border-width: 0 25px 25px 25px;
+       height: 0;
+       width: 50px;
+       box-sizing: content-box;
+       position: relative;
+       margin: 20px 0 50px 0;
+        background-color:	#FF7F50;
+}
+.tile4 {
+  width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px
+        position: relative;
+        background-color: #FFE4C4;
+}
+.tile5 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 60px;
+        border: 20px solid red;
+        border-radius: 50px 50px 0 50px;
+        background-color: #6495ED;
+}
+.tile6 {
+  #diamond-shield:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top: 70px solid green;
+        background-color:	#FFF8DC

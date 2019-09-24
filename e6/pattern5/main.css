@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+#container {
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
+}
+.tile1, .tile2, .tile3 {
+  float: left;
+  opacity: .8;
+}
+.tile1 {
+  width: 150px;
+  height: 70px;
+  border-radius: 100%;
+  transform: rotateX(-45);
+  background-color: #16ECB3;
+}
+.tile2 {
+  width: 230px;
+  height: 45px;
+  margin: -67px;
+  background-color: #EC9616;
+}
+.tile3 {
+#octagon:before {
+      content: "";
+      width: 100px;
+      height: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotate(-45);
+      border-right: 29px solid #eee;
+      background-color: #16CFEC;
+}
+.tile4 {
+  #parallelogram {
+  width: 150px;
+  height: 100px;
+  transform: skew(20deg);
+  background-color:	#008B8B;
+}
+.tile5
+#triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-left: 100px solid transparent;
+  background-color: #16CFEC;
+}
