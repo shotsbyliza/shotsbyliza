@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+#container {
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
+}
+.tile1, .tile2, .tile3 {
+  float: left;
+  opacity: .8;
+}
+.tile1 {
+  width: 200px;
+      height: 150px;
+      background: red;
+      border-radius: 115px / 75px;
+  transform: rotateX(-45);
+  background-color: #ECCF16;
+}
+.tile2 {
+  width: 0;
+       height: 0;
+       border-left: 50px solid transparent;
+       border-right: 50px solid transparent;
+       border-bottom: 100px solid red;
+  transform: rotate(46deg);
+  background-color: #1624EC;
+}
+.tile3 {
+  border-bottom: 100px solid red;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        height: 0;
+        width: 100px;
+        transform: rotate(37deg);
+        background-color: #D616EC;
+}
