@@ -1,0 +1,19 @@
+#container{
+  width: 800px;
+}
+.footer, .header{
+  width: 100%
+  margin: 0,0, 10px
+}
+.nav{
+  margin: 0,0,10px;
+}
+.column{
+  width: calc(780/3);
+  height:1000px;
+  background-color: red
+  float: left;}
+.footer{
+  margin-right: 0,10px,0,0;
+}
+}
