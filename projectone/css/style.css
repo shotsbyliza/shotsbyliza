@@ -1,23 +1,25 @@
-body{
-  background-color: #navy;
-  text-align:center;
-}
-img {
-  max-width: 100%;
-}
 body {
+  background-color: #0E0440;
+  color: white;
+  text-align: center;
   font-family: serif;
   font: Gidugu
-  font-style: italic;;
-  text-transform: all capitalize;;
+  font-style: italic;
   letter-spacing: 1px;
   font-size: 18px;
+  background-color: white
+  font currentColor; white
+  text-transform: center
 }
-a,{
+id= guy{
   color: white;
-  text decoration: currentColor;white;
-}
-a:hover{
-  color: black
-  border bottom: 10px solid black
+  text-align: center;
+  font-family: serif;
+  font: Gidugu
+  font-style: italic;
+  letter-spacing: 3px;
+  font-size: 25px:
+  background-color: white
+  font currentColor; white
+  text-transform: capitalize;
 }
