@@ -2,7 +2,7 @@
   width: 800px;
 }
 .header{
-  width: 100%;
+  width: 800px;
   height:100px;
   margin: 10px;
   background-color: red;
@@ -15,10 +15,11 @@ margin:10px;
 
 }
 .column{
-  width: calc(780/3);
+  width: calc(780px/3);780px/3
   height:1000px;
   background-color:red;
-  float: left;}
+  margin: 10px
+}
 .column{
     width: calc(780/3);
     height:1000px;
