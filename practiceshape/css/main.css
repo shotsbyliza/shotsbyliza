@@ -1,0 +1,56 @@
+
+body {background-color: yellow;
+  margin: 0;
+}
+#randomshape{
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  margin: auto;
+}
+.box2,{
+  background-color: lime
+  width: 100px
+  height: 200px
+  margin: 5px;
+}
+.box3{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+float: left;
+  margin: 5px;
+}
+.box4{
+background-color: black;
+width: 100px;
+height: 100px;
+align: right;
+margin: 5px;
+}
+.box5{
+background-color: silver;
+width: 200px;
+height: 100px;
+margin: 5px;
+}
+.box1, .box6, .box8{
+background-color: teal;
+width: 100px;
+height: 200px;
+margin: 5px;
+}
+.box7{
+background-color: green;
+width: 100px;
+height: 400px;
+margin: 5px;
+float: left;
+
+}
+.box9{
+background-color: pink;
+width: 200px;
+height: 400px;
+margin: 5px;
+}
