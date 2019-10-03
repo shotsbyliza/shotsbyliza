@@ -1,22 +1,16 @@
 body{
-  background-color: #white;
+  background-color: teal;
   text-align:center;
 }
 img {
   max-width: 100%;
 }
-body {
-  font-family: sans-serif;
-  font-style: italic;;
+body{
+  font-family: sfont-family: 'Mansalva', cursive;
+  font style: fantasy;
+  font-style: italic;
+  font color: white;
   text-transform: all capitalize;;
   letter-spacing: 1px;
   font-size: 18px;
-}
-a,{
-  color: white;
-  text decoration: none;
-}
-a:hover{
-  color: black
-  border bottom: 10px solid black
 }
