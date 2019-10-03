@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 body {background-color: yellow;
   margin: 0;
@@ -5,52 +8,41 @@ body {background-color: yellow;
 #randomshape{
   background-color: white;
   width: 400px;
-  height: 600px;
+  /*height: 600px;*/
   margin: auto;
 }
-.box2,{
-  background-color: lime
-  width: 100px
-  height: 200px
-  margin: 5px;
+.box1, .box2, .box3, .box4, .box5 {
+  float:left;
+  border: 5px solid white;
 }
-.box3{
-  background-color: black;
-  width: 100px;
-  height: 100px;
-float: left;
-  margin: 5px;
-}
-.box4{
-background-color: black;
-width: 100px;
-height: 100px;
-align: right;
-margin: 5px;
-}
-.box5{
-background-color: silver;
-width: 200px;
-height: 100px;
-margin: 5px;
-}
-.box1, .box6, .box8{
+.box1{
 background-color: teal;
 width: 100px;
 height: 200px;
-margin: 5px;
 }
-.box7{
+.box2{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+
+}
+.box3{
+background-color: silver;
+width: 200px;
+height: 100px;
+}
+.box4{
 background-color: green;
 width: 100px;
 height: 400px;
-margin: 5px;
-float: left;
-
 }
-.box9{
+.box5{
 background-color: pink;
 width: 200px;
 height: 400px;
-margin: 5px;
+}
+
+#leftside{
+  width:100px;
+  float: left;
 }
