@@ -1,12 +1,10 @@
-
-/***** general styles ****/
 body {
 margin: 0;
 }
 img {
 width: 100%;
 }
-/******* div styles ******/
+
 #container {
 
 }
@@ -17,29 +15,51 @@ text-align: center;
 padding: 100px 0;
 }
 .text {
-width: 30%;
-margin: 100px auto;
+width:  auto;
+margin: 25px;
 }
 
 
-/****** type styles ******/
+
 h1 {
 font-family: 'Playfair Display', serif;;
 font-weight: 500;
 text-transform: uppercase;
 margin: 0;
 font-size: 38vw;
-line-height: 1;
+line-height: 300px;
+letter-spacing:2px;
+;
 }
 h2 {
+font-family: 'Playfair Display', serif;;
+font-weight: 500;
+text-transform: uppercase;
+margin: 0;
+font-size: 38vw;
+line-height: 275px;
+letter-spacing:2px;
+;
+}
+h3 {
+font-family: 'Playfair Display', serif;;
+font-weight: 500;
+text-transform: uppercase;
+margin: 0;
+font-size: 15vw;
+line-height: 175px;
+}
+h4 {
 font-family: 'Playfair Display', sans-serif;
 font-weight: 700;
-text-transform: uppercase;
-font-size: 50px;
+font-size: 40px;
 letter-spacing: 2px;
+text-align: left;
 }
 p {
-font-family: whitman, serif;
-font-size: 22px;
-line-height: 1.5;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: left;
 }
