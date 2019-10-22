@@ -1,6 +1,6 @@
 body {
 margin: 0;
-background-color: black;
+background-color: #2D3766;
 color: white;
 }
 img {
@@ -18,17 +18,17 @@ padding: 100px 0;
 }
 .text {
 width:  auto;
-margin: 25px;
+margin: 50px;
 }
 
 
 
 h1 {
 font-family: 'Playfair Display', serif;;
-font-weight: 500;
+font-weight: 300;
 text-transform: uppercase;
 text-align: right;
-margin: 0;
+margin: 12px;
 font-size: 10vw;
 line-height: 1px;
 letter-spacing:2.5px;
@@ -36,9 +36,9 @@ letter-spacing:2.5px;
 }
 h2 {
 font-family: 'Playfair Display', serif;;
-font-weight: 500;
+font-weight: 100;
 text-align: right;
-margin: 0;
+margin:0px;
 font-size: 5vw;
 line-height: 135px;
 letter-spacing:2px;
@@ -47,9 +47,9 @@ letter-spacing:2px;
 
 p {
   font-family: 'Playfair Display', sans-serif;
-  font-weight: 300;
+  font-weight: 150;
   font- color: white;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 2px;
   text-align: left;
 }
