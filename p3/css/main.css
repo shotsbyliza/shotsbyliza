@@ -64,7 +64,7 @@ body{
 }
 #container {
   width: 1440px;
-  height:800px;
+  height:200px;
   margin: 100px, auto;
   background-color: white;
   font-size: 80px;
@@ -79,6 +79,13 @@ body{
   font font-family: 'Playfair Display';
   font-size: 14px;
   font-style: normal;
+}
+
+.h4 {
+  font-size: 250px;
+  font color: black;
+  font font-family: 'Playfair Display';
+  font-weight: bold;
 }
 .h1{
   font-size: 30px;
