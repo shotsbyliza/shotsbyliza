@@ -1,0 +1,31 @@
+
+body {
+  background:black;
+  padding:0;
+  margin:0;
+}
+img {
+
+}
+
+.house {
+  width:auto;;
+  height:auto;
+  background: transparent top left no-repeat;
+  background-size: 100% 100%;
+  margin:auto;
+  position:relative;
+}
+.h1{
+  font-size: 22px;
+  font font-family: 'Luckiest Guy';
+  font-style: italic;;
+  font color: Orange;
+
+}
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  height: 40px;
+  background: $color-base;
