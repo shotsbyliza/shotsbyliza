@@ -5,6 +5,9 @@ body
             background: url("../img/rainorshine.png") no-repeat;
             background-size: cover;
         }
+
+      #container{
+      }
         .rain
         {
             height: 100vh;
@@ -21,8 +24,21 @@ body
             animation: lightening 2s linear infinite;
             opacity: 0;
         }
-        .bottom-right {
-        color: orange;
+
+        h1 {
+	position: absolute;
+	left: 18%;
+	bottom: 74%;
+	font-family: 'Eater', cursive;
+	font-size: 6.5vw;
+	color: #D56F35;
+	@include animation(flicker 4s 0s infinite);
+
+
+        }
+
+        .top-left {
+        color: #D56F35;
         position: absolute;
         bottom: 8px;
         right: 16px;
@@ -35,10 +51,10 @@ body
         letter-spacing:2px;}
 
         .bottom-right {
-          color: orange;
+          color: #D56F35;
           position: absolute;
           bottom: 8px;
-          right: 16px;
+          right: 4%;
           font-family: 'Eater', cursive;
           font-weight: 100;
           text-align: center;
@@ -46,6 +62,7 @@ body
           font-size: 5vw;
           line-height: 135px;
           letter-spacing:2px;
+          padding-bottom: 3%;
 }
 
         @keyframes raining
@@ -93,5 +110,7 @@ body
             {
                 opacity: 1;
             }
+
+            
 
         }
