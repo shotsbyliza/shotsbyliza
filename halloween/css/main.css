@@ -65,6 +65,7 @@ body
           padding-bottom: 3%;
 }
 
+
         @keyframes raining
         {
             0%
@@ -111,6 +112,131 @@ body
                 opacity: 1;
             }
 
-            
+
 
         }
+        .creepy {
+            position: absolute;
+            display: inline-block;
+            top: 6%;
+            left: 10%;}
+            animation: swing 2s infinite;
+            transform-origin: top;
+
+        .creepy {
+            width: 5px;
+            height: 400px;
+            margin-left: 49px;
+            background: purple);
+        }
+
+        .creepy .body {
+            width: 100px;
+            height: 80px;
+            background: purple;
+            position: relative;
+            border-radius: 50%;
+        }
+
+        .creepy .body .eye {
+            width: 33px;
+            height: 33px;
+            position: absolute;
+            bottom: 20px;
+            background: #fff;
+            border-radius: 50%;
+        }
+
+        .creepy .body .eye.left {
+            left: 15px;
+        }
+
+         .creepy .body .eye.right {
+            right: 15px;
+        }
+
+        .creepy .body .eye:after {
+            background: #000;
+            width: 7px;
+            height: 7px;
+            content: '';
+            display: block;
+            margin: 55%;
+            border-radius: 50%;
+            animation: look 8s infinite;
+        }
+
+        .creepy2 {
+            position: absolute;
+            display: inline-block;
+            top: 0;
+            left: 1945%}
+            animation: swing 2s infinite;
+            transform-origin: top;
+
+        .creepy2 {
+            width: 5px;
+            height: 400px;
+            margin-left: 49px;
+            background: purple);
+        }
+
+        .creepy2 .body {
+            width: 100px;
+            height: 80px;
+            background: green;
+            position: relative;
+            border-radius: 50%;
+        }
+
+        .creepy2 .body .eye {
+            width: 33px;
+            height: 33px;
+            position: absolute;
+            bottom: 20px;
+            background: #fff;
+            border-radius: 50%;
+        }
+
+        .creepy2 .body .eye.left {
+            left: 15px;
+        }
+
+         .creepy2 .body .eye.right {
+            right: 15px;
+        }
+
+        .creepy2 .body .eye:after {
+            background: #000;
+            width: 7px;
+            height: 7px;
+            content: '';
+            display: block;
+            margin: 55%;
+            border-radius: 50%;
+            animation: look 8s infinite;
+        }
+
+
+
+
+
+
+        @keyframes look {
+            0%, 40%, 100% {
+                transform: translateX(0);
+            }
+
+            45%, 95% {
+                transform: translateX(-110%);
+            }
+        }
+
+        @keyframes swing {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
