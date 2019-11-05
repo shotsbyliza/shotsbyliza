@@ -53,11 +53,6 @@
   animation: 20s slider infinate;
 
 }
-img{
-
-}
-
-
 
 body{
   font-size: 16px;
@@ -67,7 +62,7 @@ body{
 }
 #container {
   width: 1440px;
-  height:200px;
+  height: auto;
   margin: 100px, auto;
   background-color: green;
   font-size: 80px;
@@ -75,16 +70,18 @@ body{
   font color: black;
   text-align: center;
 }
+
 .leftcolumn {
   float: left;
   width: 50%;
-  height: 1000px;
+  height: 900px;
   background-color: red;
+
 }
 .rightcolumn {
   float: left;
   width: 50%;
-  height: 1000px;
+  height: 900px;
   background-color: blue;
 }
 .row:after {
@@ -178,7 +175,8 @@ p{
   font-style: normal;
 }
 img {
-  max-width: 100%;
+  max-height: 850px;
+}
 
   @media only screen and (max-width: 1400px)
  {
@@ -198,4 +196,5 @@ img {
   {
     body{background-color: white;
     font-size: 20px;
+}
 }
