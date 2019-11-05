@@ -19,14 +19,14 @@ body{
   float: left;
   width: 50%;
   height: 900px;
-  background-color: red;
+  background-color: white;
 
 }
 .rightcolumn {
   float: left;
   width: 50%;
   height: 900px;
-  background-color: blue;
+  background-color: white;
 
 }
 .row:after {
@@ -37,12 +37,12 @@ body{
 
 .empty{
   width: 100%;
-  background-color: teal;
+  background-color: white;
   float: left;
 }
 .empty2{
   width: 100%;
-  background-color: orange;
+  background-color: white;
   float:left;
 }
 
@@ -185,14 +185,14 @@ body{
   float: left;
   width: 50%;
   height: 300px;
-  background-color: red;
+  background-color: white;
 
 }
 .ribeyeright {
   float: left;
   width: 50%;
   height: 300px;
-  background-color: blue;
+  background-color: white;
 
 }
 .row:after {
@@ -205,14 +205,14 @@ body{
   float: left;
   width: 50%;
   height: 300px;
-  background-color: green;
+  background-color: white;
 
 }
 .tboneright {
   float: left;
   width: 50%;
   height: 300px;
-  background-color: orange;
+  background-color: white;
 
 }
 .row:after {
@@ -224,14 +224,14 @@ body{
   float: left;
   width: 50%;
   height: 300px;
-  background-color: yellow
+  background-color: white;
 
 }
 .stripsteakright {
   float: left;
   width: 50%;
   height: 300px;
-  background-color: teal;
+  background-color: white;
 
 }
 .row:after {
