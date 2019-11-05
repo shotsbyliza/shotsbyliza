@@ -8,8 +8,8 @@ body{
   width: 1440px;
   height: auto;
   margin: 100px, auto;
-  background-color: green;
-  font-size: 80px;
+  background-color: white;
+  font-size: 50px;
   font-weight: bold;
   font color: black;
   text-align: center;
@@ -23,10 +23,14 @@ body{
 
 }
 .rightcolumn {
+text-align: center;
+  font-size: 100px;
   float: left;
   width: 50%;
   height: 900px;
   background-color: white;
+
+
 
 }
 .row:after {
@@ -88,12 +92,11 @@ body{
 }
 
 .h5{
-  font-size: 18px;
+  font-size: 96px;
   font color: black;
   font font-family: 'Playfair Display';
   font-weight: bold;
-  padding-top: 150px;
-  line-height: 0.1px;
+  line-height: 0px;
 
 }
 .h6{
@@ -102,7 +105,7 @@ body{
   font font-family: 'Playfair Display';
   font-weight: bold;
   padding-top: 150px;
-  line-height: 0.1px;
+  line-height: 0px;
 }
 .h7{
   font-size: 18px;
@@ -110,7 +113,7 @@ body{
   font font-family: 'Playfair Display';
   font-weight: bold;
   padding-top: 150px;
-  line-height: 0.1px;
+  line-height: 0px;
 }
 .h8{
   font-size: 18px;
@@ -121,7 +124,7 @@ body{
   line-height: 0.1px;
 }
 .h9{
-  font-size: 22px;
+  font-size: 12px;
   font color: black;
   font font-family: 'Playfair Display';
   font-weight: bold;
