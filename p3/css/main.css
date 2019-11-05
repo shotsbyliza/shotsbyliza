@@ -13,6 +13,7 @@ body{
   font-weight: bold;
   font color: black;
   text-align: center;
+  font-family: 'Rock Salt', cursive;
 }
 
 .leftcolumn {
@@ -59,34 +60,34 @@ text-align: center;
 }
 .intro {
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-size: 22px;
   font-style: normal;
 }
 .h1{
   font-size: 30px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
 }
 
 .h2{
   font-size: 50px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
   text-align: center;
 }
 .h3{
   font-size: 12px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight:normal;
 }
 .h4 {
   font-size: 120px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
   text-align: center;
 }
@@ -94,7 +95,7 @@ text-align: center;
 .h5{
   font-size: 96px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
   line-height: 0px;
 
@@ -102,7 +103,7 @@ text-align: center;
 .h6{
   font-size: 18px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
   padding-top: 150px;
   line-height: 0px;
@@ -110,7 +111,7 @@ text-align: center;
 .h7{
   font-size: 18px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
   padding-top: 150px;
   line-height: 0px;
@@ -118,7 +119,7 @@ text-align: center;
 .h8{
   font-size: 18px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
   padding-top: 150px;
   line-height: 0.1px;
@@ -126,7 +127,7 @@ text-align: center;
 .h9{
   font-size: 12px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
   margin-top: 50px;
   line-height: 0.1px;
@@ -134,7 +135,7 @@ text-align: center;
 .h12{
   font-size: 50px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
   margin-top: 50px;
   line-height: 0.1px;
@@ -142,7 +143,7 @@ text-align: center;
 .h20{
   font-size: 15px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
   margin-top: 50px;
   line-height: 0.1px;
@@ -150,7 +151,7 @@ text-align: center;
 .sectionheader{
   font-size: 18px;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
 
 }
@@ -159,7 +160,7 @@ text-align: center;
   font-size: 50px;
   text-align: center;
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-weight: bold;
   background-color: grey;
 }
@@ -176,7 +177,7 @@ text-align: center;
 .temps
 {
   font color: black;
-  font font-family: 'Playfair Display';
+  font-family: 'Rock Salt', cursive;
   font-size: 16px;
   font-style: normal;
   margin: 20px;
@@ -245,8 +246,8 @@ text-align: center;
 
 p{
   font color: black;
-  font font-family: 'Playfair Display';
-  font-size: 16px;
+  font-family: 'Rock Salt', cursive;
+  font-size: 14px;
   font-style: normal;
   margin: 20px;
   padding-top: 25px;
