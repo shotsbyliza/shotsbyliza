@@ -136,6 +136,14 @@ body{
   margin-top: 50px;
   line-height: 0.1px;
 }
+.h20{
+  font-size: 15px;
+  font color: black;
+  font font-family: 'Playfair Display';
+  font-weight: bold;
+  margin-top: 50px;
+  line-height: 0.1px;
+}
 .sectionheader{
   font-size: 18px;
   font color: black;
@@ -143,21 +151,35 @@ body{
   font-weight: bold;
 
 }
-.recipie{
-  font-size: 18px;
+.recipe{
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
   font color: black;
   font font-family: 'Playfair Display';
   font-weight: bold;
   background-color: grey;
 }
-.recipiebodytext{
+.recipebodytext{
+  font color: black;
+  margin: 50px;
+  font font-family: 'Playfair Display';
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  max-width: 75%;
+  padding-left: 10%;
+}
+.temps
+{
   font color: black;
   font font-family: 'Playfair Display';
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
-  text-align: right;
-  background-color: white;
+  margin: 20px;
+  padding-top: 25px;
 }
+
 
 .ribeyeleft {
   float: left;
