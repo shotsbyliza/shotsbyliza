@@ -83,6 +83,7 @@ body{
   width: 50%;
   height: 900px;
   background-color: blue;
+
 }
 .row:after {
   content: "";
@@ -134,11 +135,11 @@ body{
   font-weight: bold;
 }
 .h2{
-  font-size: 22px;
+  font-size: 16px;
   font color: black;
   font font-family: 'Playfair Display';
   font-weight: bold;
-  text-align: right;
+  text-align: center;
 }
 .h3{
   font-size: 18px;
@@ -146,6 +147,42 @@ body{
   font font-family: 'Playfair Display';
   font-weight: bold;;
 }
+.h5{
+  font-size: 18px;
+  font color: black;
+  font font-family: 'Playfair Display';
+  font-weight: bold;
+  padding-top: 150px;
+  line-height: 0.1px;
+
+}
+.h6{
+  font-size: 18px;
+  font color: black;
+  font font-family: 'Playfair Display';
+  font-weight: bold;
+  padding-top: 150px;
+  line-height: 0.1px;
+}
+.h7{
+  font-size: 18px;
+  font color: black;
+  font font-family: 'Playfair Display';
+  font-weight: bold;
+  padding-top: 150px;
+  line-height: 0.1px;
+}
+.h8{
+  font-size: 18px;
+  font color: black;
+  font font-family: 'Playfair Display';
+  font-weight: bold;
+  padding-top: 150px;
+  line-height: 0.1px;
+}
+
+
+
 .sectionheader{
   font-size: 18px;
   font color: black;
