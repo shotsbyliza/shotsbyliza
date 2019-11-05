@@ -1,61 +1,5 @@
-@keyframes slider {
-
-0%{
-  left:0;
-}
-
-20%{
-  left:0;
-}
-
-25%{
-  left: -100%;
-}
-
-45%{
-  left:-100%;
-}
-50%{
-  left:-200%;
-}
-70% {
-  left:-200%:
-
-}
-75% {
-  left:-300%;
-}
-95% {
-  left: -400%;
-
-}
-
-100%{
-  left:-400%;
-}
-}
-
-#slider {
-  overflow: hidden;
-}
-#slider figure img{
-  width: 20%;
-  float: left;
-}
-
-#slider figure {
-  position: relative;
-  width: 150%;
-  margin: 10px;
-  left: 0:
-  text-align: left;
-  font-size: 0;
-  animation: 20s slider infinate;
-
-}
-
 body{
-  font-size: 16px;
+  font-size: 14px;
   font-style:normal;
   background-color: white;
   text-align:center;
@@ -107,24 +51,13 @@ body{
   .column {
     width: 100%;
   }
-}
-
-
 
 }
 .intro {
   font color: black;
   font font-family: 'Playfair Display';
-  font-size: 14px;
+  font-size: 22px;
   font-style: normal;
-}
-
-.h4 {
-  font-size: 120px;
-  font color: black;
-  font font-family: 'Playfair Display';
-  font-weight: bold;
-  text-align: center;
 }
 .h1{
   font-size: 30px;
@@ -132,19 +65,28 @@ body{
   font font-family: 'Playfair Display';
   font-weight: bold;
 }
+
 .h2{
-  font-size: 16px;
+  font-size: 50px;
   font color: black;
   font font-family: 'Playfair Display';
   font-weight: bold;
   text-align: center;
 }
 .h3{
-  font-size: 18px;
+  font-size: 12px;
   font color: black;
   font font-family: 'Playfair Display';
-  font-weight: bold;;
+  font-weight:normal;
 }
+.h4 {
+  font-size: 120px;
+  font color: black;
+  font font-family: 'Playfair Display';
+  font-weight: bold;
+  text-align: center;
+}
+
 .h5{
   font-size: 18px;
   font color: black;
@@ -178,9 +120,22 @@ body{
   padding-top: 150px;
   line-height: 0.1px;
 }
-
-
-
+.h9{
+  font-size: 22px;
+  font color: black;
+  font font-family: 'Playfair Display';
+  font-weight: bold;
+  margin-top: 50px;
+  line-height: 0.1px;
+}
+.h12{
+  font-size: 50px;
+  font color: black;
+  font font-family: 'Playfair Display';
+  font-weight: bold;
+  margin-top: 50px;
+  line-height: 0.1px;
+}
 .sectionheader{
   font-size: 18px;
   font color: black;
@@ -203,11 +158,73 @@ body{
   text-align: right;
   background-color: white;
 }
+
+.ribeyeleft {
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-color: red;
+
+}
+.ribeyeright {
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-color: blue;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tboneleft {
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-color: green;
+
+}
+.tboneright {
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-color: orange;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.stripsteakleft {
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-color: yellow
+
+}
+.stripsteakright {
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-color: teal;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 p{
   font color: black;
   font font-family: 'Playfair Display';
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
+  margin: 20px;
+  padding-top: 25px;
 }
 img {
   max-height: 850px;
