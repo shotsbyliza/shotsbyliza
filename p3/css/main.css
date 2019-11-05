@@ -9,7 +9,7 @@ body{
   height: auto;
   margin: 100px, auto;
   background-color: white;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   font color: black;
   text-align: center;
@@ -49,13 +49,6 @@ text-align: center;
   width: 100%;
   background-color: white;
   float:left;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%;
-  }
 
 }
 .intro {
@@ -133,7 +126,7 @@ text-align: center;
   line-height: 0.1px;
 }
 .h12{
-  font-size: 50px;
+  font-size: 40px;
   font color: black;
   font-family: 'Rock Salt', cursive;
   font-weight: bold;
@@ -256,9 +249,23 @@ img {
   max-height: 850px;
 }
 
-@media screen and (max-width: 800px) {
-.left, .main, .right {
-  width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+
+@media only screen and (max-width: 1400px)
+ {
+   body{background-color: white;
+   font-size: 18px;
 }
-}
+   @media only screen and (max-width: 1400px)
+    {
+      body{background-color: white;
+      font-size: 18px;}
+@media only screen and (max-width: 768px)
+ {
+   body{background-color: white;
+   font-size: 20px;
+ }
+ @media only screen and (max-width: 500px)
+  {
+    body{background-color: white;
+    font-size: 22px;
 }
