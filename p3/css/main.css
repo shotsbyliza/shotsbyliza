@@ -237,7 +237,7 @@ img {
    body{background-color: white;
    font-size: 18px;
  }
- h1{
+ h1, h2, h7{
    font-size: 7vw;
    font color: black;
    font-family: 'Rock Salt', cursive;
@@ -273,22 +273,10 @@ h1, h2, h7{
     width: 50%;
     height: 900px;
     background-color: white;
-h1{
-  font-size: 7vw;
-  font color: black;
-  font-family: 'Rock Salt', cursive;
-  font-weight: bold;
-}
-h7{
-  font-size: 7vw;
-  font color: black;
-  font-family: 'Rock Salt', cursive;
-  font-weight: bold;
-  line-height: 1.5
 }
 
   .leftcolumn {
-    float: right;
+    float: left;
     width: 25%;
     height: 250px;
     background-color: white;
@@ -306,7 +294,7 @@ h7{
     height: 900px;
     background-color: white;
 
-}@media only screen and (max-width: 1400px)
+}
 
 
 
