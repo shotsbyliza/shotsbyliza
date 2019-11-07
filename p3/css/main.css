@@ -1,3 +1,8 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 body{
   font-size: 14px;
   font-style:normal;
@@ -5,55 +10,49 @@ body{
   text-align:center;
 }
 #container {
-  width: 1440px;
-  height: auto;
-  margin: 100px, auto;
+  width: 100%;
+  /*height: auto;*/
+  margin: 0 auto 100px;
   background-color: white;
   font-size: 40px;
   font-weight: bold;
-  font color: black;
+  color: black;
   text-align: center;
   font-family: 'Rock Salt', cursive;
   line-height: 1.5;
 }
-
-.leftcolumn {
-  float: left;
-  width: 50%;
-  height: 900px;
-  background-color: white;
-
+.header {
+  height: 90vh;
 }
 .rightcolumn {
-text-align: center;
+  text-align: center;
+  float: left;
+  width: 50%;
+  height: 90vh;
+  overflow-y: hidden;
+}
+.rightcolumn img {
+  width: 70%;
+}
+.leftcolumn {
+  text-align: center;
   font-size: 80px;
   float: left;
   width: 50%;
-  height: 900px;
-  background-color: white;
+  /*height: 900px;*/
   line-height: 1.5;
-
-
-
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .empty{
   width: 100%;
   background-color: white;
   float: left;
-  background-color: white;
 
 }
 
 }
 .empty2{
   width: 100%;
-  background-color: white;
   float:left;
 
 }
@@ -112,7 +111,7 @@ h6{
   line-height: 0.1px;
 }
 
-h7{
+h6{
   font-size: 7vw;
   font color: black;
   font-family: 'Rock Salt', cursive;
@@ -168,7 +167,6 @@ h7{
   float: left;
   width: 50%;
   height: 300px;
-  background-color: white;
 
 }
 .row:after {
@@ -181,39 +179,26 @@ h7{
   float: left;
   width: 50%;
   height: 300px;
-  background-color: white;
 
 }
 .tboneright {
   float: left;
   width: 50%;
   height: 300px;
-  background-color: white;
 
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 .stripsteakleft {
   float: left;
   width: 50%;
   height: 300px;
-  background-color: white;
 
 }
 .stripsteakright {
   float: left;
   width: 50%;
   height: 300px;
-  background-color: white;
 
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+
 }
 
 .video {
@@ -227,35 +212,14 @@ p{
   font-style: normal;
   margin: 20px;
   padding-top: 25px;
-}
-img {
-  max-height: 850px;
+  text-align: left;
 }
 
 @media only screen and (max-width: 1400px)
- {
-   body{background-color: white;
-   font-size: 18px;
- }
- h1, h2, h7{
-   font-size: 7vw;
-   font color: black;
-   font-family: 'Rock Salt', cursive;
-   font-weight: bold;
-
-   }
-   .rightcolumn {
-     float: left;
-     text-align: center;
-     font-size: 15px;
-     width: 50%;
-     height: 900px;
-     background-color: white;
-
-}
-@media only screen and (max-width: 1394px)
 {
-
+#container{
+  /*width: 1394px;*/
+}
   body{background-color: white;
   font-size: 18px;
 }
@@ -268,44 +232,94 @@ h1, h2, h7{
   }
   .rightcolumn {
     float: left;
-    text-align: center;
-    font-size: 15px;
     width: 50%;
-    height: 900px;
-    background-color: white;
-}
-
+  }
   .leftcolumn {
-    float: left;
-    width: 25%;
-    height: 250px;
-    background-color: white;
-  }
-  img .leftcolumn{
-    max-width: 100%
-
-    height: 150px;
-  }
-  .rightcolumn {
-  text-align: center;
-    font-size: 15px;
+    text-align: center;
+    font-size: 80px;
     float: left;
     width: 50%;
-    height: 900px;
-    background-color: white;
+    /*height: 900px;*/
+    line-height: 1.5;
+  }
+  .rightcolumn img{
+    max-width: 100%;
+  }
+.grillphoto img{
+  max-width: 100%;
+}
+.video video{
+  max-width: 100%;
 
 }
-
-
-
-}
-{@media only screen and (max-width: 768px)
+@media only screen and (max-width: 768px)
  {
    body{background-color: white;
    font-size: 20px;
+ }
+   #container{
+     max-width: 768px;
+   }
  }
  @media only screen and (max-width: 500px)
   {
     body{background-color: white;
     font-size: 22px;
+  }
+  #container{
+    max-width: 100%;
+}
+.grillphoto img{
+  max-width: 500px;
+}
+.video video{
+  max-width: 500px;
+}
+
+.ribeyeleft {
+  float: left;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+
+}
+.ribeyeright {
+  float: left;
+  width: 100%;
+  height: 300px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tboneleft {
+  float: left;
+  width: 100%;
+  height: 300px;
+
+}
+.tboneright {
+  margin: 0 auto 0 0;
+  float: left;
+  width: 100%;
+  height: 300px;
+
+}
+.stripsteakleft {
+  margin: auto;
+  padding-top: 14px;
+  float: left;
+  width: 100%;
+  height: 300px;
+
+}
+.stripsteakright {
+  float: left;
+  width: 100%;
+  height: 300px;
+
+
 }
