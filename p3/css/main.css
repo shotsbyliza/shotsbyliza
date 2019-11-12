@@ -191,6 +191,9 @@ h6{
 
 
 }
+.grillphoto{
+  max-width: 100%;
+}
 .grillphoto img{
   max-width: 100%;
 }
