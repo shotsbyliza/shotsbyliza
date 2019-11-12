@@ -13,6 +13,7 @@ body{
   width: 100%;
   /*height: auto;*/
   margin: 0 auto 100px;
+  margin-bottom: 10px;
   background-color: white;
   font-size: 40px;
   font-weight: bold;
@@ -107,16 +108,7 @@ h6{
   font color: black;
   font-family: 'Rock Salt', cursive;
   font-weight: bold;
-  margin-top: 50px;
-  line-height: 0.1px;
-}
-
-h6{
-  font-size: 7vw;
-  font color: black;
-  font-family: 'Rock Salt', cursive;
-  font-weight: bold;
-  line-height: 1.5;
+  margin-top: 10p
 }
 .sectionheader{
   font-size: 18px;
@@ -200,6 +192,12 @@ h6{
 
 
 }
+.grillphoto img{
+  max-width: 500px;
+}
+.video video{
+  max-width: 500px;
+}
 
 .video {
   max-width: 100%;
@@ -217,76 +215,38 @@ p{
 
 @media only screen and (max-width: 1400px)
 {
-#container{
-  /*width: 1394px;*/
-}
   body{background-color: white;
-  font-size: 18px;
+  font-size: 22px;
 }
-h1, h2, h7{
-  font-size: 7vw;
-  font color: black;
-  font-family: 'Rock Salt', cursive;
-  font-weight: bold;
-
-  }
-  .rightcolumn {
-    float: left;
-    width: 50%;
-  }
-  .leftcolumn {
-    text-align: center;
-    font-size: 80px;
-    float: left;
-    width: 50%;
-    /*height: 900px;*/
-    line-height: 1.5;
-  }
-  .rightcolumn img{
-    max-width: 100%;
-  }
-.grillphoto img{
+#container{
   max-width: 100%;
 }
-.video video{
-  max-width: 100%;
-
+.leftcolumn {
+  text-align: center;
+  font-size: 80px;
+  float: left;
+  width: 50%;
+  /*height: 900px;*/
+  line-height: 1.5;
 }
-@media only screen and (max-width: 768px)
- {
-   body{background-color: white;
-   font-size: 20px;
- }
-   #container{
-     max-width: 768px;
-   }
- }
- @media only screen and (max-width: 500px)
-  {
-    body{background-color: white;
-    font-size: 22px;
-  }
-  #container{
-    max-width: 100%;
+.rightcolumn {
+  text-align: center;
+  float: left;
+  width: 50%;
+  height: 90vh;
+  overflow-y: hidden;
 }
-.grillphoto img{
-  max-width: 500px;
-}
-.video video{
-  max-width: 500px;
-}
-
 .ribeyeleft {
   float: left;
   width: 100%;
-  height: 300px;
+  height: 225px;
   background-color: white;
 
 }
 .ribeyeright {
   float: left;
   width: 100%;
-  height: 300px;
+  height: 250px;
 
 }
 .row:after {
@@ -298,28 +258,291 @@ h1, h2, h7{
 .tboneleft {
   float: left;
   width: 100%;
-  height: 300px;
+  height: 250px;
 
 }
 .tboneright {
-  margin: 0 auto 0 0;
   float: left;
   width: 100%;
-  height: 300px;
+  height: 350px;
 
 }
 .stripsteakleft {
-  margin: auto;
-  padding-top: 14px;
   float: left;
   width: 100%;
-  height: 300px;
+  height: 250px;
 
 }
 .stripsteakright {
   float: left;
   width: 100%;
-  height: 300px;
+  height: 350px;
+}
+}
+.empty2{
+width: 100%;
+float:left;
 
+}
+h6{
+  font-size: 15px;
+  padding-bottom: 25px;
 
+}
+.video video{
+  max-width: 100%;
+  text-align: center;
+}
+.grillphoto img{
+  max-width: 100%;
+}
+@media only screen and (max-width: 1000px)
+{
+  body{background-color: white;
+  font-size: 22px;
+}
+#container{
+  max-width: 100%;
+}
+.leftcolumn {
+  text-align: center;
+  font-size: 80px;
+  float: left;
+  width: 50%;
+  /*height: 900px;*/
+  line-height: 1.5;
+}
+.rightcolumn {
+  text-align: center;
+  float: left;
+  width: 50%;
+  height: 600px;
+  overflow-y: hidden;
+}
+.rightcolumn img{
+  max-height: 150%;
+}
+.ribeyeleft {
+  float: left;
+  width: 100%;
+  height: 225px;
+  background-color: white;
+
+}
+.ribeyeright {
+  float: left;
+  width: 100%;
+  height: 250px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tboneleft {
+  float: left;
+  width: 100%;
+  height: 250px;
+
+}
+.tboneright {
+  float: left;
+  width: 100%;
+  height: 350px;
+
+}
+.stripsteakleft {
+  float: left;
+  width: 100%;
+  height: 250px;
+
+}
+.stripsteakright {
+  float: left;
+  width: 100%;
+  height: 350px;
+}
+}
+.empty2{
+width: 100%;
+float:left;
+
+}
+h6{
+  font-size: 15px;
+  padding-bottom: 25px;
+
+}
+.video video{
+  max-width: 100%;
+  text-align: center;
+}
+.grillphoto img{
+  max-width: 100%;
+}
+@media only screen and (max-width: 768px)
+{
+  body{background-color: white;
+  font-size: 22px;
+}
+
+.leftcolumn {
+  text-align: center;
+  font-size: 80px;
+  float: left;
+  width: 100%;
+  /*height: 900px;*/
+  line-height: 1.5;
+}
+.rightcolumn {
+  text-align: center;
+  float: left;
+  width: 100%;
+  height: 70vh;
+  overflow-y: hidden;
+}
+.ribeyeleft {
+  float: left;
+  width: 100%;
+  height: 225px;
+  background-color: white;
+
+}
+.ribeyeright {
+  float: left;
+  width: 100%;
+  height: 250px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tboneleft {
+  float: left;
+  width: 100%;
+  height: 250px;
+
+}
+.tboneright {
+  float: left;
+  width: 100%;
+  height: 350px;
+
+}
+.stripsteakleft {
+  float: left;
+  width: 100%;
+  height: 250px;
+
+}
+.stripsteakright {
+  float: left;
+  width: 100%;
+  height: 350px;
+}
+}
+.empty2{
+width: 100%;
+float:left;
+
+}
+h6{
+  font-size: 15px;
+  padding-bottom: 25px;
+
+}
+.video video{
+  max-width: 100%;
+  text-align: center;
+}
+.grillphoto img{
+  max-width: 100%;
+}
+}
+
+ @media only screen and (max-width: 500px)
+  {
+    body{background-color: white;
+    font-size: 22px;
+  }
+  .leftcolumn {
+    text-align: center;
+    font-size: 80px;
+    float: left;
+    width: 100%;
+    /*height: 900px;*/
+    line-height: 1.5;
+  }
+  .rightcolumn {
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 90vh;
+    overflow-y: hidden;
+  }
+  .ribeyeleft {
+    float: left;
+    width: 100%;
+    height: 225px;
+    background-color: white;
+
+  }
+  .ribeyeright {
+    float: left;
+    width: 100%;
+    height: 250px;
+
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .tboneleft {
+    float: left;
+    width: 100%;
+    height: 250px;
+
+  }
+  .tboneright {
+    float: left;
+    width: 100%;
+    height: 350px;
+
+  }
+  .stripsteakleft {
+    float: left;
+    width: 100%;
+    height: 250px;
+
+  }
+  .stripsteakright {
+    float: left;
+    width: 100%;
+    height: 350px;
+}
+}
+.empty2{
+  width: 100%;
+  float:left;
+
+}
+  h6{
+    font-size: 15px;
+    padding-bottom: 25px;
+
+  }
+  .video video{
+    max-width: 500px;
+    text-align: center;
+  }
+  .grillphoto img{
+    max-width: 500px;
+  }
 }
