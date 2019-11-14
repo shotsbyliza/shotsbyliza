@@ -8,6 +8,7 @@ body{
   font-style:normal;
   background-color: white;
   text-align:center;
+  margin: 0;
 }
 #container {
   width: 100%;
@@ -125,6 +126,7 @@ h6{
   font-family: 'Rock Salt', cursive;
   font-weight: bold;
   background-color: grey;
+  margin: 0;
 }
 .recipebodytext{
   font color: black;
@@ -192,7 +194,7 @@ h6{
 
 }
 .grillphoto{
-  max-width: 100%;
+  width: 100%;
 }
 .grillphoto img{
   max-width: 100%;
@@ -533,7 +535,6 @@ h6{
     width: 100%;
     height: 350px;
 }
-}
 .empty2{
   width: 100%;
   float:left;
@@ -549,6 +550,6 @@ h6{
     text-align: center;
   }
   .grillphoto img{
-    max-width: 500px;
+    /*max-width: 500px;*/
   }
 }

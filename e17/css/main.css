@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+
+
+body{
+  margin: 0;
+  font-family: font-family: 'Liu Jian Mao Cao', cursive;
+  background-color: green;
+}
+.title{
+  width: 100vw;
+  height: 90vh;
+  background: salmon;
+  padding: 30vh;
+}
+h1{
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
