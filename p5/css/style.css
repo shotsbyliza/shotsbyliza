@@ -1,33 +1,20 @@
 body {
-  color: black;
+  color: white;
   text-align: center;
   font-family: 'Alfa Slab One', cursive;
   font-family: 'Bangers', cursive;
   font-style: italic;
   letter-spacing: 1px;
   font-size: 50px;
-  background-color: white
-  font currentColor; white
+  background-color: black;
+  color; white
   text-transform: center
-  background: url("../img/houseforproj.png") no-repeat;
-}
-id= guy{
-  color: white;
-  text-align: center;
-  font-family: serif;
-  font: Gidugu
-  font-style: italic;
-  letter-spacing: 3px;
-  font-size: 25px:
-  background-color: white
-  font currentColor; white
-  text-transform: capitalize;
-}
-
-.rainbow-text {
-  background-image: linear-gradient(to left, violet, indigo, blue, green,orange,red,-webkit-background-clip: text; -webkit-text-fill-color:transparent;
 }
 .video{
   max-width: 100%;
-  
+
+
+}
+#video{
+ display: none;
 }

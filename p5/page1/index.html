@@ -4,22 +4,40 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bangers&display=swap" rel="stylesheet">
-  </head>
       <title>Should You Live with Roommates?</title>
   </head>
     <body>
-    <div id="container">
-      <background-image: "houseforproj.png.">
-      <div class="header">
-
-        <h1>Living</h1>
-        <h1>With</h1>
-        <a href="../page2/index.html">Roommates!</a>
+      <div id="video" class="no">
+        <video id="myVideo">
+          <source src="../video/nomovie.mp4" type="video/mp4">
+        </video>
       </div>
-    <body>
+    <div id="container">
+      <div class="header">
+        <div class="should">
+          <h1>Should</h1>
+        </div>
+      </div>
+      <div class="you"<h1>You</h1>
+        <h1>Live</h1>
+        <h1>With</h1>
+        <h1 id="myBtn" onclick="myFunction()">Roommates?</h1>
+        </div>
+      </div>
+      <script>
+        // Get the video
+        var video = document.getElementById("myVideo");
+        // Get the button
+        var btn = document.getElementById("myBtn");
+        // Pause and play the video, and change the button text
+        function myFunction() {
+            video.play();
+            var x = document.getElementById("container");
+            var y = document.getElementById("video");
+              y.style.display = "block";
+              x.style.display = "none";
+        }
 
-
-
-
+      </script>
     </body>
 </html>
