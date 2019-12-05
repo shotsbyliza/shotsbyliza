@@ -12,6 +12,7 @@ body {
 
 }
 #video{
+ max-width: 100%;
  display:none;
  position: absolute;
  padding-top: 250px;
