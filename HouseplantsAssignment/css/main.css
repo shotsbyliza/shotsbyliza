@@ -22,44 +22,36 @@ body{
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #f18c8e;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 35px 16px;
+  margin-left: 200px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 24px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #white;
+  color: 	#3DAE9B;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: ##3DAE9B;
   color: white;
 }
 
 .text {
   width: 45vw;
   margin: 50px auto;
-}
-
-.navbar{
-  width: 100%;
-  height: 70vh;
-  color: green;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
 }
 
 h1 {
