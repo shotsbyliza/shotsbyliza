@@ -17,12 +17,6 @@ body {
     background-position: center;;
 }
 
-.header {
-	background-image:url("../maisysimages/maisylogo.png");
-	height:70px;
-	width:110%;
-	margin:-10px;
-}
 
 #header {
   width: 100%;
@@ -38,6 +32,10 @@ body {
   background: #f18c8e;
   color: #707070;
   font-size: 3.5vh;
+	height:200px;
+	width:110%;
+	margin:-10px;
+  image size: auto;
 }
 /* Add a black background color to the top navigation */
 .topnav {
