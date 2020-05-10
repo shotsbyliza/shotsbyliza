@@ -66,6 +66,18 @@ body {
   color: white;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .text {
   width: 45vw;
   margin: 50px auto;
@@ -119,15 +131,15 @@ img.half {
 img.right-10px {
   margin-right: 10px;
 }
+
 .footer {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-    height: 30px;
-    color: ##f18c8e;
-	background-color: ##f18c8e;
-	text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
 
